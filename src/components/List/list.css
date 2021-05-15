@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+.cont_lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Handlee";
+    margin-bottom: .2rem;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.tachado{
+    text-decoration: line-through;
+}
+
