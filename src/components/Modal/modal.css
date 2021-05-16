@@ -1,0 +1,73 @@
+.cont_modal{
+    width: 30%;
+    background-color: #fde9ea;
+    font-family: "Lato";
+    font-weight: 700;
+    padding: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    position: absolute;
+    top: -50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s ease-in-out;
+    z-index: 10;
+}
+
+.modal-1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-bottom: 1.7rem;
+}
+
+.modal-2{
+    margin-bottom: .5rem;
+}
+
+.modal-3{
+    font-weight: 400;
+    margin-bottom: .5rem;
+}
+
+.modal-4{
+    font-weight: 400;
+}
+
+.modal-5{
+    margin-top: 1.7rem;
+    text-align: end;
+}
+
+.bajar_modal{
+    top: 50%;
+}
+
+.btn_modal{
+    font-family: "Lato";
+    font-weight: 700;
+    padding: .6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 2rem;
+    transition: .5s ease-in-out;
+}
+
+.cont_lista .btn_modal{
+    margin-top: 1rem;
+}
+
+.btn_modal:hover{
+    background-color: rgba(36, 36, 36, 0.8);
+    color: white;
+}
+
+@media (max-width: 500px){
+    .cont_modal{
+        width: 60%;
+    }
+}
